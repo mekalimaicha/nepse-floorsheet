@@ -1,0 +1,50 @@
+name: Historical Backfill
+
+on:
+  schedule:
+    # Two night shifts, both inside 7:00 PM - 7:00 AM Nepal time.
+    # Shift 1 starts 7:05 PM NPT (13:20 UTC), shift 2 starts 12:45 AM NPT (19:00 UTC).
+    - cron: "20 13 * * *"
+    - cron: "0 19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: floorsheet-git-push
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Scrape history (stops itself after 300 minutes)
+        run: python scraper/scrape.py backfill --budget-minutes 300
+
+      - name: Commit data and progress
+        if: always()
+        run: |
+          git config user.name "floorsheet-bot"
+          git config user.email "floorsheet-bot@users.noreply.github.com"
+          git add data state
+          git diff --cached --quiet && echo "Nothing new to commit" && exit 0
+          git commit -m "Backfill progress $(date -u +%F-%H%M)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs && git push && exit 0
+            sleep 15
+          done
+          exit 1
