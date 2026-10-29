@@ -1,0 +1,21 @@
+name: Test Historical Access (nepalstock)
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "A past trading date to test, YYYY-MM-DD"
+        required: true
+        default: "2026-10-27"
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install nepse
+      - run: python scraper/probe_history.py "${{ github.event.inputs.date }}"
