@@ -1,2 +1,2 @@
-playwright==1.48.0
-nepse
+   playwright==1.48.0
+   git+https://github.com/basic-bgnr/NepseUnofficialApi
