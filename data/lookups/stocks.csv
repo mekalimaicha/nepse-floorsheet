@@ -1,6 +1,7 @@
 stockSymbol,stockId,securityName
 ACLBSL,2790,Aarambha Chautari Laghubitta Bittiya Sanstha Limited
 ADBL,397,Agricultural Development Bank Limited
+ADBLD83,2886,10.35% Agricultural Bank Debenture 2083
 AHL,9150,Asian Hydropower Limited
 AHPC,360,Arun Valley Hydropower Development Co. Ltd.
 AKJCL,2788,Ankhu Khola Jalvidhyut Company Ltd
@@ -24,6 +25,7 @@ BHL,8055,Balephi Hydropower Limited
 BHPL,9135,Barahi Hydropower Public Limited
 BJHL,9322,Bhujung Hydropower Limited
 BNHC,8032,Buddha Bhumi Nepal Hydropower Company Limited
+BNL,195,Bottlers Nepal (Balaju) Limited
 BNT,213,Bottlers Nepal (Terai) Limited
 BPCL,153,Butwal Power Company Limited
 BUNGAL,9296,Bungal Hydro Limited
@@ -36,6 +38,7 @@ CHDC,3946,CEDB Holdings Limited
 CHL,2766,Chhyangdi Hydropower Ltd.
 CIT,210,Citizen Investment Trust
 CITY,9173,City Hotel Limited
+CIZBD86,2889,10.25% Citizens Bank Debenture 2086
 CIZBD90,9231,10% Citizens Bank Debenture 2090
 CKHL,9232,Chirkhwa Hydropower Limited 
 CLI,9209,Citizen Life Insurance Company Limited
@@ -81,12 +84,15 @@ GRDBL,2744,Green Development Bank Ltd.
 GSY,9248,Garima Samriddhi Yojana
 GUFL,204,Gurkhas Finance Ltd.
 GVL,8045,Green Ventures Limited
+GWFD83,2883,12 % Goodwill Finance Limited Debenture 2083
 H8020,9221,Himalayan 80-20
 HATHY,9213,Hathway Investment Nepal Limited
 HBL,134,Himalayan Bank Limited
+HBLD86,9137,"Himalayan Bank Limited Bond, 2086"
 HDHPC,2880,Himal Dolakha Hydropower Company Limited
 HDL,235,Himalayan Distillery Limited
 HEI,179,Himalayan Everest Insurance Limited
+HEIP,700,Himalayan Everest Insurance Limited Promoter
 HFIN,9308,Hotel Forest Inn Limited
 HHL,8076,Himalayan Hydropower Limited
 HIDCL,2742,Hydorelectricity Investment and Development Company Ltd
@@ -141,6 +147,7 @@ MANDU,9212,Mandu Hydropower Limited
 MATRI,694,Matribhumi Lagubitta Bittiya Sanstha Limited
 MBJC,8031,Madhya Bhotekoshi Jalavidyut Company Limited
 MBL,140,Machhapuchhre Bank Limited
+MBLD87,7985,8.5% Machhapuchchhre Debenture 2087
 MBLEF,9257,MBL Equity Fund
 MCHL,9175,Menchhiyam Hydropower Limited
 MDB,371,Miteri Development Bank Limited
@@ -196,6 +203,7 @@ NICL,176,Nepal Insurance Co. Ltd.
 NICLBSL,2887,NIC ASIA Laghubitta Bittiya Sanstha Limited
 NICSF,4967,NIC Asia Select Fund 30
 NIFRA,2919,Nepal Infrastructure Bank Limited
+NIFRAGED,9261,Nifra Green Energy Debenture 6% - 2088/89
 NIFRAUR85/86,9141,NIFRA Uraj Rinpatra7%-2085/86
 NIL,183,Neco Insurance Limited
 NIMB,132,Nepal Investment Mega Bank Limited
@@ -227,11 +235,13 @@ PBD88,8097,10% Prime Debenture 2088
 PBD93,9354,"6.25% Prime Bank Debenture, 2093"
 PBLD84,2904,10% Prabhu Bank Debenture 2084 
 PCBL,357,Prime Commercial Bank Ltd.
+PCBLP,544,Prime Commercial Bank Promoter Share
 PCIL,9330,Palpa Cement Industries Limited
 PFL,236,Pokhara Finance Ltd.
 PHCL,8133,Peoples Hydropower Company Limited
 PMHPL,2786,Panchakanya Mai Hydropower Ltd
 PMLI,2915,Prabhu Mahalaxmi Life Insurance Limited
+PMLIP,9237,Prabhu Mahalaxmi Life Insurance Limited promotor
 PPCL,2813,Panchthar Power Compant Limited
 PPL,8122,People's Power Limited
 PRIN,184,Prabhu Insurance Ltd.
@@ -254,6 +264,7 @@ RIDI,610,Ridi Power Company Limited
 RLEL,9324,Ridge Line Energy Limited
 RLFL,587,Reliance Finance Ltd.
 RMF1,4968,RBB Mutual Fund 1
+RMF2,9178,RBB Mutual Fund 2
 RNLI,9199,Reliable Nepal Life Insurance Limited
 RSDC,2748,RSDC Laghubitta Bittiya Sanstha Ltd.
 RSML,9306,Reliance Spinning Mills Limited
