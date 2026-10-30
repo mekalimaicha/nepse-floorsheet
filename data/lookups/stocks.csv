@@ -36,6 +36,7 @@ CHDC,3946,CEDB Holdings Limited
 CHL,2766,Chhyangdi Hydropower Ltd.
 CIT,210,Citizen Investment Trust
 CITY,9173,City Hotel Limited
+CIZBD90,9231,10% Citizens Bank Debenture 2090
 CKHL,9232,Chirkhwa Hydropower Limited 
 CLI,9209,Citizen Life Insurance Company Limited
 CORBL,450,Corporate Development Bank Limited
@@ -51,6 +52,9 @@ DOLTI,9170,Dolti Power Company Limited
 DORDI,8070,Dordi Khola Jal Bidyut Company Limited
 EBL,137,Everest Bank Limited
 EBLD85,8119,10.50% Everest Bank Limited Debenture 2085
+EBLD86,8044,Everest Bank Limited
+EBLD91,9255,Everest Bank Limited Debenture 2091
+EBLEB89,9152,"Everest Bank Limited Energy Bond, 2089"
 ECL,9347,Everest Colour Limited
 EDBL,274,Excel Development Bank Ltd.
 EHPL,8131,Eastern Hydropower Limited
@@ -109,6 +113,7 @@ JOSHI,2789,Joshi Hydropower Development Company Ltd
 JSLBB,695,Janautthan Samudayic Laghubitta Bittya Sanstha Limited
 KAHL,9346,Kalanga Hydro Limited
 KBL,142,Kumari Bank Limited
+KBLD86,2885,10.25% KBL Debenture 2086
 KBSH,9196,Kutheli Bukhari Small Hydropower Limited
 KDBY,8074,Kumari Dhanabriddhi Yojana
 KDL,9151,Kalinchowk Darshan Limited
@@ -118,6 +123,7 @@ KKHC,2751,Khanikhola Hydropower Co. Ltd.
 KMCDB,593,Kalika Laghubitta Bittiya Sanstha Ltd
 KPCL,2787,Kalika power Company Ltd
 KSBBL,459,Kamana Sewa Bikas Bank Limited
+KSBBLD87,4948,9% Kamana Sewa Bikas Bank Limited Debenture 2087
 KSY,9241,Kumari Sabal Yojana
 LBBL,358,Lumbini Bikas Bank Ltd.
 LEC,2903,Liberty Energy Company Limited
@@ -126,6 +132,7 @@ LLBS,618,Laxmi Laghubitta Bittiya Sanstha Ltd.
 LSD92,9355,7% Laxmi Sunrise Debenture 2092
 LSH12,9350,LS Horizon 12
 LSL,141,Laxmi Sunrise Bank Limited
+LSLPO,286,Laxmi Sunrise Bank Limited Promoter Share
 LUK,2902,Laxmi Unnati Kosh
 LVF2,9198,Laxmi Value Fund 2
 MABEL,9287,Mabilung Energy Limited
@@ -143,6 +150,7 @@ MEN,2913,Mountain Energy Nepal Limited
 MEPDL,9352,Mount Everest Power Development Limited
 MERO,1741,Mero Microfinance Bittiya Sanstha Ltd.
 MFIL,516,Manjushree Finance Ltd.
+MFLD85,2932,9.5% Manjushree Finance Limited Debenture 2085
 MHCL,9158,Molung Hydropower Company Limited
 MHL,8102,Mandakini Hydropower Limited
 MHNL,2811,Mountain Hydro Nepal Limited
@@ -179,6 +187,7 @@ NIBLGF,9138,NIBL Growth Fund
 NIBLSTF,9244,NIBL Stable Fund
 NIBSF2,4949,NIBL Samriddhi Fund -2
 NICA,139,NIC Asia Bank Ltd.
+NICAD2091,9266,7% NIC ASIA Debenture 2091
 NICBF,2863,NIC Asia Balanced Fund
 NICD88,7986,NIC ASIA Rinpatra 2088
 NICFC,8073,NIC Asia Flexi CAP Fund
@@ -190,11 +199,13 @@ NIFRA,2919,Nepal Infrastructure Bank Limited
 NIFRAUR85/86,9141,NIFRA Uraj Rinpatra7%-2085/86
 NIL,183,Neco Insurance Limited
 NIMB,132,Nepal Investment Mega Bank Limited
+NIMBD90,9243,10% NIMB Debenture 2090
 NIMBPO,469,Nepal Investment Mega Bank Ltd. Promoter Share
 NLG,559,NLG Insurance Company Ltd.
 NLIC,187,Nepal Life Insurance Co. Ltd.
 NLICL,178,National Life Insurance Co. Ltd.
 NMB,238,NMB Bank Limited
+NMBD2085,2850,10 % NMB DEBENTURE 2085
 NMBHF2,9254,NMB Hybrid Fund L- II
 NMBMF,704,NMB  Microfinance Bittiya Sanstha Ltd.
 NMBUR93/94,8105,NMB Energy Bond 4% - 2093/94 
@@ -232,6 +243,7 @@ PURE,9258,Pure Energy Limited
 RADHI,2776,Radhi Bidyut Company Ltd
 RAWA,9181,Rawa Energy Development Limited
 RBBD2088,9264,7% RBBL Debenture 2088
+RBBD83,8003,8.5% RBBL Debenture 2083
 RBBF40,9302,RBB Focus 40
 RBCL,177,Rastriya Beema Company Limited
 RBCLPO,634,Rastriya Beema Company Limited Promoter Share
@@ -269,6 +281,8 @@ SBID83,8110,10.25% Nepal SBI Bank Debenture 2083
 SBID89,9211,9% Nepal SBI Bank Rinpatra 2089
 SBL,145,Siddhartha Bank Limited
 SBLD2091,9271,7.25% SBL Debenture 2091
+SBLD84,2912,8.5% SBL Debenture 2084
+SBLD89,8098,10.75% SBL Debenture 2089
 SCB,133,Standard Chartered Bank Limited
 SEF,2770,Siddhartha Equity Fund
 SEF2,9348,Siddhartha Equity Fund 2
@@ -317,6 +331,7 @@ SPHL,8121,Sayapatri Hydropower Limited
 SPIL,182,Siddhartha Premier Insurance Limited
 SPL,9147,Shuvam Power Limited
 SRLI,5982,Sanima Reliance Life Insurance Limited
+SRLIP,5983,Sanima Reliance Life Insurance Limited Promoter Share
 SSHL,2907,Shiva Shree Hydropower Ltd
 STC,155,Salt Trading Corporation
 SWASTIK,9295,Swastik Laghubitta Bittiya Sanstha Limited
